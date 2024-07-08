@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* ?? non scompare la sottolineatura ?? */
+.menu {
+    text-decoration: none;
+    list-style: none;
+}
+
+.menu-list{
+    
+    margin-left: 20px;
+    display: inline;
+    color: rgb(50, 50, 50);
+}
+
+nav{
+    
+    position: fixed; /* Posiziona la navbar in modo fisso */
+    top: 0; /* Fissa la navbar in cima */
+    width: 100%; /* Imposta la larghezza della navbar al 100% */
+    background-color: #fff; /* Colore di sfondo della navbar (puoi cambiarlo in base al tuo design) */
+    z-index: 1000; /* Assicura che la navbar sia sempre sopra gli altri elementi */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Aggiunge un'ombra alla navbar per separarla dal contenuto */
+}
+
+
+
+.col1 {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    position: absolute;
+}
+
+
+.col2 {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 80px;
+    padding: 25px 70px;
+    font-size: 15px;
+
+}
+
+
+/* HERO */
+.warp-hero {
+    background: url("../IMG/mensola.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1800px;
+    width:  100vw;
+    flex-direction: column;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    font-size: 50px;
+    font-style: bold;
+    color: rgb(251, 206, 183);
+}
+
+p {
+    font-size: 20px;
+    font-style: normal;
+}
+
+.col3 {
+    position: absolute;
+    top: 180px;
+    justify-content: center;
+    color: white;    
+    align-items: center; 
+    display: flex;
+    gap: 30px;
+}
+
+.col4 {
+    position: absolute;
+    top: 530px;
+    justify-content: center;
+    color: white;    
+    align-items: center; 
+    display: flex;
+    gap: 30px;
+}
+
+.col5 {
+    position: absolute;
+    top: 870px;
+    justify-content: center;
+    color: white;    
+    align-items: center; 
+    display: flex;
+    gap: 30px;
+}
+
+.col6 {
+    position: absolute;
+    top: 1210px;
+    justify-content: center;
+    color: white;    
+    align-items: center; 
+    display: flex;
+    gap: 30px;
+}
+
+
+/* ?? si sposta a sinistra in modo strano ?? */
+/* DIV Designer */
+.designer {
+    position: absolute;
+    margin-top: -450px;
+    right: -180px;
+    margin-right: 0px;
+    padding-right: 0px;
+    font-size: 50px;
+    font-weight: 800;
+    font-style: normal;
+    color: rgb(255, 255, 255); 
+    rotate: -90deg;
+}
+
+
+/* DIV 2 */
+.About-me {
+    width:  100vw;
+    height: 600px;
+    padding: 50px;
+}
+
+
+.line {
+    height: 5px;
+    width: 420px;
+    margin-left: -200px;
+    color: black;
+}
+
+.AbMe-Text {
+    padding-top: 40px;
+}
+
+.p2 { padding-top: 15px;}
+.p3 { padding-top: 15px;}
+.p4 { padding-top: 15px;}
+
+
+/* ?? titolo non si sposta a sinistra ?? */
+/* DIV title Education */
+.Ed-title {
+    color: rgb(236, 0, 0);
+    right: 0px;
+    display: flex;
+}
+
+.line2 {
+    height: 5px;
+    width: 420px;
+    color: black;
+}
+
+
+/* DIV 3 */
+.Education {
+    display: flex;
+    padding: 20px;
+}
+.education-logo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.col7 {
+    width: 33.3%;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* DIV 4 */
+.interests {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 70px;
+}
+
+.col8 {
+    width: 25%;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* ?? dimensioni ?? */
+.card1 {
+    padding: 70px 50px;
+    background: url("../IMG/ABOUT\ ME\ card\ 1\ background.jpg");
+    background-repeat: no-repeat;
+    background-position: center; 
+    border-radius: 30px;
+    text-align: center;
+}
+
+.card2 {
+    padding: 70px 50px;
+    background: url("../IMG/ABOUT\ ME\ card\ 2\ background.png");
+    background-repeat: no-repeat;
+    background-position: center; 
+    border-radius: 30px;
+    text-align: center;
+}
+
+.card3 {
+    padding: 70px 50px;
+    background: url("../IMG/ABOUT\ ME\ card\ 3\ background.png");
+    background-repeat: no-repeat;
+    background-position: center; 
+    border-radius: 30px;
+    text-align: center;
+}
+
+.card4 {
+    padding: 70px 50px;
+    background: url("../IMG/ABOUT\ ME\ card\ 4\ background.png");
+    background-repeat: no-repeat;
+    background-position: center; 
+    border-radius: 30px;
+    text-align: center;
+}
+
+/* Div5 banner */
+.banner {
+    height: 310px;
+    text-align: center;
+    background: url("../IMG/banner\ foto.jpg");
+    background-repeat: no-repeat;
+    background-position: center; 
+    padding: 50px 0px;
+}
+
+.request {
+    
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column;   
+    display: inline;
+}
+
+.req-text {
+    padding-top: 65px;
+}
+
+input {
+    width: 30%;
+    margin-top: 20px;
+    border-radius: 30px;
+    border: none;
+    padding: 10px 10px;
+    background-color: rgb(231, 231, 231);
+    
+}
+
+.submit {
+    background-color: rgb(255, 255, 255);
+    width: 140px;
+    margin-left: 30px;
+}
