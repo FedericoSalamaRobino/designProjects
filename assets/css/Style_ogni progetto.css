@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* ?? non scompare la sottolineatura ?? */
+.menu {
+    text-decoration: none;
+    list-style: none;
+}
+
+.menu-list{
+
+    margin-left: 20px;
+    display: inline;
+    color: rgb(50, 50, 50);
+}
+
+nav{
+    
+    position: fixed; /* Posiziona la navbar in modo fisso */
+    top: 0; /* Fissa la navbar in cima */
+    width: 100%; /* Imposta la larghezza della navbar al 100% */
+    background-color: #fff; /* Colore di sfondo della navbar (puoi cambiarlo in base al tuo design) */
+    z-index: 1000; /* Assicura che la navbar sia sempre sopra gli altri elementi */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Aggiunge un'ombra alla navbar per separarla dal contenuto */
+}
+
+
+
+.col1 {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    position: absolute;
+}
+
+
+.col2 {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 80px;
+    padding: 25px 70px;
+    font-size: 15px;
+
+}
+
+/* HERO */
+.warp-hero {
+    background: url("../IMG/mensola.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1500px;
+    width:  100vw;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    font-size: 50px;
+    font-style: bold;
+    color: rgb(251, 206, 183);
+}
+
+p {
+    font-size: 20px;
+    font-style: normal;
+}
+
+.col3 {
+    position: absolute;
+    top: 180px;
+    justify-content: center;
+    color: white;    
+    align-items: center; 
+    display: flex;
+    gap: 30px;
+}
+
+.col4 {
+    position: absolute;
+    top: 580px;
+    justify-content: center;
+    color: white;    
+    align-items: center; 
+    display: flex;
+    gap: 30px;
+}
+
+.col5 {
+    position: absolute;
+    top: 1000px;
+    justify-content: center;
+    color: white;    
+    align-items: center; 
+    display: flex;
+    gap: 30px;
+}
+
+/* Project EOS */
+.EOS {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.EOS img, .EOS video {
+    width: 95%;
+    height: auto;
+}
+
+.EOS a {
+    width: 95%;
+    display: flex;
+    justify-content: center;
+}
+
+.EOS video {
+    max-width: 95%;
+}
+
+/* Project KeepIt App */
+.KeepItApp {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.KeepItApp img, .KeepItApp video {
+    width: 95%;
+    height: auto;
+}
+
+.KeepItApp a {
+    width: 95%;
+    display: flex;
+    justify-content: center;
+}
+
+.KeepItApp video {
+    max-width: 95%;
+}
+
+/* Project BEOPURE */
+.BEOPURE {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.BEOPURE img {
+    width: 95%;
+    height: auto;
+}
+
+.BEOPURE a {
+    width: 95%;
+    display: flex;
+    justify-content: center;
+}
+
+/* Project MINO */
+.MINo {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.MINo img, .MINo video {
+    width: 95%;
+    height: auto;
+}
+
+.MINo a {
+    width: 95%;
+    display: flex;
+    justify-content: center;
+}
+
+.MINo video {
+    max-width: 95%;
+}
+
+/* Project ROCKYROUTES */
+.ROCKYROUTES {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ROCKYROUTES img {
+    width: 95%;
+    height: auto;
+}
+
+.ROCKYROUTES a {
+    width: 95%;
+    display: flex;
+    justify-content: center;
+}
+
+/* Project IGIEA */
+.IGIEA {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.IGIEA img {
+    width: 95%;
+    height: auto;
+}
+
+.IGIEA a {
+    width: 95%;
+    display: flex;
+    justify-content: center;
+}
+
+/* Project AWY */
+.AWY {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.AWY img {
+    width: 95%;
+    height: auto;
+}
+
+.AWY a {
+    width: 95%;
+    display: flex;
+    justify-content: center;
+}
+
+/* Project SOFA_JFrks */
+.SOFA_JFrks {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.SOFA_JFrks img {
+    width: 95%;
+    height: auto;
+}
+
+.SOFA_JFrks a {
+    width: 95%;
+    display: flex;
+    justify-content: center;
+}
+
+/* Project FKITCHEN */
+.FKITCHEN {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.FKITCHEN img {
+    width: 95%;
+    height: auto;
+}
+
+.FKITCHEN a {
+    width: 95%;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
